@@ -1,0 +1,28 @@
+.root {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.card {
+    max-width: 200px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: blue;
+
+}
+.card .user-image {
+    width: 100%;
+    display: block;
+
+}
+.card .user-id{
+    text-align: center;
+}
+.user-name,
+.user-last-name,
+.user-age,
+.user-image {
+    margin-bottom: 1rem;
+}
